@@ -1,0 +1,220 @@
+2020-08-07 22:55:42,160 ERROR 11916 [-/192.168.0.104/-/3ms GET /news] nodejs.AssertionError: Can't find news/list.tpl from D:\code\egg-example\app\view
+    at Map.resolve (D:\code\egg-example\node_modules\_egg-view@2.1.2@egg-view\lib\view_manager.js:74:5)
+    at async ContextView.[contextView#render] (D:\code\egg-example\node_modules\_egg-view@2.1.2@egg-view\lib\context_view.js:50:22)
+    at async NewsController.list (D:\code\egg-example\app\controller\news.js:12:5)
+    at async D:\code\egg-example\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\code\egg-example\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\code\egg-example\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\code\egg-example\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\code\egg-example\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\code\egg-example\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\code\egg-example\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 11916
+hostname: DESKTOP-B3U9O3B
+
+2020-08-07 22:55:59,230 ERROR 11916 [-/192.168.0.106/-/1ms GET /news] nodejs.AssertionError: Can't find news/list.tpl from D:\code\egg-example\app\view
+    at Map.resolve (D:\code\egg-example\node_modules\_egg-view@2.1.2@egg-view\lib\view_manager.js:74:5)
+    at async ContextView.[contextView#render] (D:\code\egg-example\node_modules\_egg-view@2.1.2@egg-view\lib\context_view.js:50:22)
+    at async NewsController.list (D:\code\egg-example\app\controller\news.js:12:5)
+    at async D:\code\egg-example\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\code\egg-example\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\code\egg-example\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\code\egg-example\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\code\egg-example\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\code\egg-example\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\code\egg-example\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 11916
+hostname: DESKTOP-B3U9O3B
+
+2020-08-07 22:56:38,696 ERROR 7116 [-/192.168.0.104/-/7ms GET /news] nodejs.AssertionError: Can't find news/list.tpl from D:\code\egg-example\app\view
+    at Map.resolve (D:\code\egg-example\node_modules\_egg-view@2.1.2@egg-view\lib\view_manager.js:74:5)
+    at async ContextView.[contextView#render] (D:\code\egg-example\node_modules\_egg-view@2.1.2@egg-view\lib\context_view.js:50:22)
+    at async NewsController.list (D:\code\egg-example\app\controller\news.js:12:5)
+    at async D:\code\egg-example\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\code\egg-example\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\code\egg-example\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\code\egg-example\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\code\egg-example\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\code\egg-example\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\code\egg-example\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 7116
+hostname: DESKTOP-B3U9O3B
+
+2020-08-07 22:56:42,153 ERROR 7116 [-/192.168.0.106/-/2ms GET /news] nodejs.AssertionError: Can't find news/list.tpl from D:\code\egg-example\app\view
+    at Map.resolve (D:\code\egg-example\node_modules\_egg-view@2.1.2@egg-view\lib\view_manager.js:74:5)
+    at async ContextView.[contextView#render] (D:\code\egg-example\node_modules\_egg-view@2.1.2@egg-view\lib\context_view.js:50:22)
+    at async NewsController.list (D:\code\egg-example\app\controller\news.js:12:5)
+    at async D:\code\egg-example\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\code\egg-example\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\code\egg-example\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\code\egg-example\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\code\egg-example\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\code\egg-example\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\code\egg-example\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 7116
+hostname: DESKTOP-B3U9O3B
+
+2020-08-07 22:57:23,848 ERROR 7744 [-/192.168.0.106/-/11ms GET /news] nodejs.AssertionError: Can't find news/list.tpl from D:\code\egg-example\app\view
+    at Map.resolve (D:\code\egg-example\node_modules\_egg-view@2.1.2@egg-view\lib\view_manager.js:74:5)
+    at async ContextView.[contextView#render] (D:\code\egg-example\node_modules\_egg-view@2.1.2@egg-view\lib\context_view.js:50:22)
+    at async NewsController.list (D:\code\egg-example\app\controller\news.js:12:5)
+    at async D:\code\egg-example\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\code\egg-example\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\code\egg-example\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\code\egg-example\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\code\egg-example\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\code\egg-example\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\code\egg-example\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 7744
+hostname: DESKTOP-B3U9O3B
+
+2020-08-07 22:57:42,213 ERROR 7744 [-/192.168.0.106/-/1ms GET /news] nodejs.AssertionError: Can't find news/list.tpl from D:\code\egg-example\app\view
+    at Map.resolve (D:\code\egg-example\node_modules\_egg-view@2.1.2@egg-view\lib\view_manager.js:74:5)
+    at async ContextView.[contextView#render] (D:\code\egg-example\node_modules\_egg-view@2.1.2@egg-view\lib\context_view.js:50:22)
+    at async NewsController.list (D:\code\egg-example\app\controller\news.js:12:5)
+    at async D:\code\egg-example\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\code\egg-example\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\code\egg-example\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\code\egg-example\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\code\egg-example\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\code\egg-example\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\code\egg-example\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 7744
+hostname: DESKTOP-B3U9O3B
+
+2020-08-07 22:57:43,464 ERROR 7744 [-/192.168.0.106/-/1ms GET /news] nodejs.AssertionError: Can't find news/list.tpl from D:\code\egg-example\app\view
+    at Map.resolve (D:\code\egg-example\node_modules\_egg-view@2.1.2@egg-view\lib\view_manager.js:74:5)
+    at async ContextView.[contextView#render] (D:\code\egg-example\node_modules\_egg-view@2.1.2@egg-view\lib\context_view.js:50:22)
+    at async NewsController.list (D:\code\egg-example\app\controller\news.js:12:5)
+    at async D:\code\egg-example\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\code\egg-example\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\code\egg-example\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\code\egg-example\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\code\egg-example\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\code\egg-example\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\code\egg-example\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 7744
+hostname: DESKTOP-B3U9O3B
+
+2020-08-07 22:57:44,238 ERROR 7744 [-/192.168.0.106/-/0ms GET /news] nodejs.AssertionError: Can't find news/list.tpl from D:\code\egg-example\app\view
+    at Map.resolve (D:\code\egg-example\node_modules\_egg-view@2.1.2@egg-view\lib\view_manager.js:74:5)
+    at async ContextView.[contextView#render] (D:\code\egg-example\node_modules\_egg-view@2.1.2@egg-view\lib\context_view.js:50:22)
+    at async NewsController.list (D:\code\egg-example\app\controller\news.js:12:5)
+    at async D:\code\egg-example\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\code\egg-example\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\code\egg-example\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\code\egg-example\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\code\egg-example\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\code\egg-example\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\code\egg-example\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 7744
+hostname: DESKTOP-B3U9O3B
+
+2020-08-07 22:57:56,814 ERROR 7744 [-/192.168.0.106/-/1ms GET /news] nodejs.AssertionError: Can't find news/list.tpl from D:\code\egg-example\app\view
+    at Map.resolve (D:\code\egg-example\node_modules\_egg-view@2.1.2@egg-view\lib\view_manager.js:74:5)
+    at async ContextView.[contextView#render] (D:\code\egg-example\node_modules\_egg-view@2.1.2@egg-view\lib\context_view.js:50:22)
+    at async NewsController.list (D:\code\egg-example\app\controller\news.js:12:5)
+    at async D:\code\egg-example\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\code\egg-example\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\code\egg-example\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\code\egg-example\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\code\egg-example\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\code\egg-example\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\code\egg-example\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 7744
+hostname: DESKTOP-B3U9O3B
+
+2020-08-07 23:28:00,159 ERROR 16900 [-/192.168.0.106/-/8ms GET /news] nodejs.TypeError: Cannot destructure property 'serverUrl' of 'this.config.news' as it is undefined.
+    at NewsService.list (D:\code\egg-example\app\service\news.js:7:13)
+    at NewsController.list (D:\code\egg-example\app\controller\news.js:8:45)
+    at Object.callFn (D:\code\egg-example\node_modules\_egg-core@4.17.6@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\code\egg-example\node_modules\_egg-core@4.17.6@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\code\egg-example\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\code\egg-example\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\code\egg-example\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (D:\code\egg-example\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at D:\code\egg-example\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\code\egg-example\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+
+pid: 16900
+hostname: DESKTOP-B3U9O3B
+
+2020-08-07 23:28:12,841 ERROR 16900 [-/192.168.0.106/-/1ms GET /news] nodejs.TypeError: Cannot destructure property 'serverUrl' of 'this.config.news' as it is undefined.
+    at NewsService.list (D:\code\egg-example\app\service\news.js:7:13)
+    at NewsController.list (D:\code\egg-example\app\controller\news.js:8:45)
+    at Object.callFn (D:\code\egg-example\node_modules\_egg-core@4.17.6@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\code\egg-example\node_modules\_egg-core@4.17.6@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\code\egg-example\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\code\egg-example\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\code\egg-example\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (D:\code\egg-example\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at D:\code\egg-example\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\code\egg-example\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+
+pid: 16900
+hostname: DESKTOP-B3U9O3B
+
+2020-08-07 23:28:15,541 ERROR 9664 [-/192.168.0.106/-/8ms GET /news] nodejs.AssertionError: Can't find news/list.tpl from D:\code\egg-example\app\view
+    at Map.resolve (D:\code\egg-example\node_modules\_egg-view@2.1.2@egg-view\lib\view_manager.js:74:5)
+    at async ContextView.[contextView#render] (D:\code\egg-example\node_modules\_egg-view@2.1.2@egg-view\lib\context_view.js:50:22)
+    at async NewsController.list (D:\code\egg-example\app\controller\news.js:12:5)
+    at async D:\code\egg-example\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\code\egg-example\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\code\egg-example\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\code\egg-example\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\code\egg-example\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\code\egg-example\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\code\egg-example\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 9664
+hostname: DESKTOP-B3U9O3B
+
