@@ -3,3 +3,7 @@
 /node_modules/*
 node_modules/
 node_modules/*
+logs/egg-example/egg-agent.log.2020-08-12
+logs/*
+node_modules/
+node_modules/*

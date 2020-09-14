@@ -1,0 +1,48 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js
+
+PATH: 
+  C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files (x86)\Yarn\bin\;C:\Users\me\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Bandizip\;C:\Users\me\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\me\AppData\Roaming\npm;C:\Users\me\AppData\Local\Yarn\bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.18.3
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile 'C:\Users\me\AppData\Local\Yarn\Cache\v6\npm-ansi-styles-2.2.1-b432dd3358b634cf75e1e4664368240533c1ddbe-integrity\node_modules\ansi-styles\index.js' -> 'D:\code\egg-example\node_modules\babel-code-frame\node_modules\ansi-styles\index.js'
+
+npm manifest: 
+  {
+    "name": "egg-example",
+    "version": "1.0.0",
+    "description": "desc..",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "dev": "egg-bin dev"
+    },
+    "keywords": [
+      "key"
+    ],
+    "author": "kee",
+    "license": "ISC",
+    "dependencies": {
+      "egg": "^2.27.0",
+      "egg-mysql": "^3.0.0",
+      "egg-view-nunjucks": "^2.2.0"
+    },
+    "devDependencies": {
+      "egg-bin": "^4.15.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

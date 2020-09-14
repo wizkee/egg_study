@@ -3,7 +3,8 @@ const Controller = require("egg").Controller;
 
 class NewsController extends Controller {
   async list() {
-    console.log('this :>> ', this);
+    console.log('this.app :>> ', this.app);
+
     const dataList = {
       list: [
         { id: 1, title: "this is news 1", url: "/news/1" },
